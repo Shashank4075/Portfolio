@@ -48,7 +48,7 @@ Associate Software Engineer  |                                                  
 - Delivered findings to show borough-specific crime hotspots and time-based patterns, enabling targeted decision-making and resource planning.
 
 ## Certification 
-### IIIT Bangalore                                            |                        Apr 2023 - Dec 2023, Bangalore | INDIA
+### IIIT Bangalore                                            |                        Apr 2023 - Dec 2023 | Bangalore,INDIA
 Advance Certificate Programme in Data Science                                                                    |  GPA: 3.4                
 
 
