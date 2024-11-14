@@ -10,7 +10,7 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #000; /* Changed to black */
+    background-color: #000; /* Black background */
     color: white;
     border-radius: 8px;
 }
@@ -42,20 +42,17 @@ section {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Color-coded Sections */
-#summary { background-color: #f0f8ff; }
-#technical-skills { background-color: #e6ffe6; }
-#experience { background-color: #fff0f5; }
-#projects { background-color: #ffffe0; }
-#education { background-color: #e6f7ff; }
-#certifications { background-color: #ffe6e6; }
+/* Projects Section */
+.project {
+    margin-bottom: 15px;
+}
 
-/* Collapsible Button */
-.collapsible {
+/* Collapsible Button for Each Project */
+.project-collapsible {
     background-color: #007acc;
     color: white;
     cursor: pointer;
-    padding: 12px;
+    padding: 10px;
     width: 100%;
     border: none;
     outline: none;
@@ -63,34 +60,36 @@ section {
     font-size: 18px;
     font-weight: bold;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
-.collapsible:hover {
+.project-collapsible:hover {
     background-color: #005f8a;
 }
 
-/* Collapsible Content */
-.content {
+/* Collapsible Project Content */
+.project-content {
     display: none;
-    overflow: hidden;
-    padding: 0 15px;
+    padding: 15px;
     border-left: 3px solid #007acc;
-}
-.content ul {
-    padding-left: 20px;
-}
-.content ul li {
-    margin: 5px 0;
-}
-.content h3 {
-    margin-top: 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 5px;
 }
 
-/* Footer or Additional styling */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #007acc;
-    color: white;
-    margin-top: 20px;
+/* Project Image Styling */
+.project-content img {
+    width: 100%;
+    max-width: 300px; /* Sets a maximum width for the image */
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Project List Styling */
+.project-content ul {
+    padding-left: 20px;
+}
+.project-content ul li {
+    margin: 5px 0;
 }
