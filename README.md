@@ -23,6 +23,8 @@ Associate Software Engineer  |                                                  
 - Executed predictive analysis on 50,000 mental health records using Python and scikit-learn; SVM model achieved 91% precision.
 - Enhanced diagnostic accuracy for high-risk groups, cutting null error rate from 69.34% to 24%.
 
+[Experience Letter ](./99020306-.pdf)
+
 ## Projects
 ### Disease Data Modeling and Warehousing Project | PostgreSQL, ETL, Data Modeling, AWS Architecture, DbSchema
 - Architected a scalable data model in PostgreSQL with a dimensional structure and ETL pipelines to optimize disease data storage and streamline data flow.
