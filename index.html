@@ -5,56 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shashank Shekhar's Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        /* Base styles */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-        }
-        header, section {
-            padding: 20px;
-            border-radius: 8px;
-            margin: 15px 0;
-        }
-        /* Section colors */
-        #summary { background-color: #f0f8ff; }
-        #technical-skills { background-color: #e6ffe6; }
-        #experience { background-color: #fff0f5; }
-        #projects { background-color: #ffffe0; }
-        #education { background-color: #e6f7ff; }
-        #certifications { background-color: #ffe6e6; }
-        /* Image styling */
-        .profile-picture {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-        }
-        /* Button and collapsible styling */
-        .collapsible {
-            background-color: #007acc;
-            color: white;
-            cursor: pointer;
-            padding: 10px;
-            width: 100%;
-            border: none;
-            outline: none;
-            text-align: left;
-            font-size: 18px;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-        .content {
-            display: none;
-            padding: 15px;
-            border: 1px solid #007acc;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <img src="assets/profilepic1.jpeg" alt="Profile Picture" class="profile-picture"> <!-- Enlarged Profile Image -->
+        <img src="assets/profilepic.jpeg" alt="Profile Picture" class="profile-picture">
         <h1>Shashank Shekhar</h1>
         <p class="role">Data Scientist | Machine Learning Engineer</p>
         <div class="contact-info">
@@ -69,111 +23,69 @@
         <p>I am a dedicated Data Scientist and Machine Learning Engineer with expertise in Python, SQL, and C#. I am skilled in machine learning, statistical modeling, and data analysis. With a proven track record of developing high-precision models and providing actionable insights, I excel at leveraging data to solve complex problems and support data-driven decision-making.</p>
     </section>
 
-    <!-- Collapsible Technical Skills Section -->
+    <!-- Technical Skills Section -->
     <section id="technical-skills">
-        <button class="collapsible">Technical Skills</button>
-        <div class="content">
-            <ul>
-                <li><strong>Languages:</strong> Python, SQL, C#</li>
-                <li><strong>Machine Learning:</strong> scikit-learn, TensorFlow, Statistical Modeling, Unsupervised Learning, KNN, SVM, Random Forest, Decision Tree, Naive Bayes, NLP</li>
-                <li><strong>Data Analysis:</strong> NumPy, Pandas, EDA, Feature Engineering</li>
-                <li><strong>Visualization:</strong> Matplotlib, Seaborn, Tableau, Storytelling</li>
-                <li><strong>Databases & Tools:</strong> MSSQL, PostgreSQL, Oracle, Git, REST API, AWS</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Collapsible Experience Section -->
-    <section id="experience">
-        <button class="collapsible">Work Experience</button>
-        <div class="content">
-            <h3>Harman Connected Services Pvt. Ltd.</h3>
-            <p><strong>Associate Software Engineer</strong> | Pune, India | April 2022 - February 2023</p>
-            <ul>
-                <li>Engineered and customized product ImedOne's features using C# and .NET, boosting client satisfaction by 10%.</li>
-                <li>Executed predictive analysis on 50,000 mental health records using Python and scikit-learn; achieved 91% precision with an SVM model.</li>
-                <li>Enhanced diagnostic accuracy for high-risk groups, reducing the null error rate from 69.34% to 24%.</li>
-                <p><a href="assets/99020306-.pdf" target="_blank">View Certificate PDF</a></p>
-            </ul>
-        </div>
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Languages:</strong> Python, SQL, C#</li>
+            <li><strong>Machine Learning:</strong> scikit-learn, TensorFlow, Statistical Modeling, Unsupervised Learning, KNN, SVM, Random Forest, Decision Tree, Naive Bayes, NLP</li>
+            <li><strong>Data Analysis:</strong> NumPy, Pandas, EDA, Feature Engineering</li>
+            <li><strong>Visualization:</strong> Matplotlib, Seaborn, Tableau, Storytelling</li>
+            <li><strong>Databases & Tools:</strong> MSSQL, PostgreSQL, Oracle, Git, REST API, AWS</li>
+        </ul>
     </section>
 
     <!-- Collapsible Projects Section -->
     <section id="projects">
-        <button class="collapsible">Projects</button>
-        <div class="content">
-            <h3>Disease Data Modeling and Warehousing Project</h3>
-            <ul>
-                <li>Developed a scalable PostgreSQL data model with ETL pipelines for disease data storage and analysis.</li>
-                <li>Created ER diagrams and dashboards to visualize disease trends, enhancing healthcare decision-making.</li>
-                <li>Compared AWS architecture performance using Snowflake vs. PostgreSQL for cost-effectiveness.</li>
-            </ul>
-            <h3>Dropout Rate Prediction</h3>
-            <ul>
-                <li>Implemented a Random Forest model with 87% AUC, outperforming a Decision Tree model.</li>
-                <li>Analyzed 73,000 records, identifying trends such as dropout rates in larger schools and Regents diploma distribution.</li>
-            </ul>
-            <h3>E-commerce Purchase Prediction</h3>
-            <ul>
-                <li>Built a KNN model with 97.13% accuracy on e-commerce data, identifying customer segments.</li>
-                <li>Segmented customers for targeted marketing strategies, leading to increased conversion rates.</li>
-            </ul>
-            <h3>Heart Disease Prediction Modeling</h3>
-            <ul>
-                <li>Developed models using SVM and Random Forest with 92% accuracy, identifying high-risk patients.</li>
-            </ul>
-            <h3>NYPD Calls for Service Data Analysis</h3>
-            <ul>
-                <li>Analyzed NYPD call data in Tableau, revealing crime patterns in Brooklyn with peak incidents from midnight to 3 am.</li>
-            </ul>
+        <h2>Projects</h2>
+        
+        <!-- Project 1 -->
+        <div class="project">
+            <button class="project-collapsible">Disease Data Modeling and Warehousing Project</button>
+            <div class="project-content">
+                <img src="assets/disease-data-modeling.jpg" alt="Disease Data Modeling Project Image">
+                <ul>
+                    <li>Developed a scalable PostgreSQL data model with ETL pipelines for disease data storage and analysis.</li>
+                    <li>Created ER diagrams and dashboards to visualize disease trends, enhancing healthcare decision-making.</li>
+                    <li>Compared AWS architecture performance using Snowflake vs. PostgreSQL for cost-effectiveness.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project">
+            <button class="project-collapsible">Dropout Rate Prediction</button>
+            <div class="project-content">
+                <img src="assets/dropout-rate-prediction.jpg" alt="Dropout Rate Prediction Project Image">
+                <ul>
+                    <li>Implemented a Random Forest model with 87% AUC, outperforming a Decision Tree model.</li>
+                    <li>Analyzed 73,000 records, identifying trends such as dropout rates in larger schools and Regents diploma distribution.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project">
+            <button class="project-collapsible">E-commerce Purchase Prediction</button>
+            <div class="project-content">
+                <img src="assets/ecommerce-purchase-prediction.jpg" alt="E-commerce Purchase Prediction Project Image">
+                <ul>
+                    <li>Built a KNN model with 97.13% accuracy on e-commerce data, identifying customer segments.</li>
+                    <li>Segmented customers for targeted marketing strategies, leading to increased conversion rates.</li>
+                </ul>
+            </div>
         </div>
     </section>
 
-    <!-- Collapsible Education Section -->
+    <!-- Education Section -->
     <section id="education">
-        <button class="collapsible">Education</button>
-        <div class="content">
-            <h3>Master of Science in Data Analytics & Visualization</h3>
-            <p>Katz School of Science & Health, Yeshiva University | New York, NY | Jan 2024 - Expected May 2025 | GPA: 3.5</p>
-            <p><strong>Relevant Coursework:</strong> Machine Learning, Data Science, Structured Data Management, Computational Math & Statistics, Storytelling</p>
-            <h3>Bachelor of Technology in Computer Science Engineering</h3>
-            <p>Guru Nanak Institute of Technology | Kolkata, INDIA | May 2018 - May 2022 | GPA: 3.6</p>
-        </div>
+        <h2>Education</h2>
+        <h3>Master of Science in Data Analytics & Visualization</h3>
+        <p>Katz School of Science & Health, Yeshiva University | New York, NY | Jan 2024 - Expected May 2025 | GPA: 3.5</p>
+        <h3>Bachelor of Technology in Computer Science Engineering</h3>
+        <p>Guru Nanak Institute of Technology | Kolkata, INDIA | May 2018 - May 2022 | GPA: 3.6</p>
     </section>
 
-    <!-- Collapsible Certifications Section -->
-    <section id="certifications">
-        <button class="collapsible">Certifications</button>
-        <div class="content">
-            <p>Advance Certificate Programme in Data Science - IIIT Bangalore | Apr 2023 - Dec 2023 | GPA: 3.4</p>
-            <p><a href="assets/IIITB-Certificate.pdf" target="_blank">View Certificate PDF</a></p>
-        </div>
-    </section>
-
-     <!-- Collapsible Resume Section -->
-    <section id="resume">
-        <button class="collapsible">Resume</button>
-        <div class="content">
-            <p>Resume</p>
-            <p><a href="assets/Shashank%20Shekhar%20Resume.pdf" target="_blank">View Resume PDF</a></p>
-        </div>
-    </section>
-
-
-    <script>
-        // Script for collapsible sections
-        const coll = document.getElementsByClassName("collapsible");
-        for (let i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                const content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                    content.style.display = "none";
-                } else {
-                    content.style.display = "block";
-                }
-            });
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
