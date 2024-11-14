@@ -10,19 +10,26 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #FFFFFF;
         }
         header, section {
             padding: 20px;
+            margin: 15px auto;
+            max-width: 800px;
             border-radius: 8px;
-            margin: 15px 0;
+            border: 1px solid #444;
         }
         /* Section colors */
-        #summary { background-color: #f0f8ff; }
-        #technical-skills { background-color: #e6ffe6; }
-        #experience { background-color: #fff0f5; }
-        #projects { background-color: #ffffe0; }
-        #education { background-color: #e6f7ff; }
-        #certifications { background-color: #ffe6e6; }
+        #summary { background-color: #1c1c1c; }
+        #technical-skills { background-color: #1c1c1c; }
+        #experience { background-color: #1c1c1c; }
+        #projects { background-color: #1c1c1c; }
+        #education { background-color: #1c1c1c; }
+        #certifications { background-color: #1c1c1c; }
         /* Image styling */
         .profile-picture {
             width: 150px;
@@ -50,11 +57,15 @@
             border-radius: 5px;
             margin-top: 10px;
         }
+        /* Underline the Portfolio Summary title */
+        #summary h2 {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <header>
-        <img src="assets/profilepic.jpeg" alt="Profile Picture" class="profile-picture"> <!-- Enlarged Profile Image -->
+        <img src="assets/profilepic1.jpeg" alt="Profile Picture" class="profile-picture">
         <h1>Shashank Shekhar</h1>
         <p class="role">Data Scientist | Machine Learning Engineer</p>
         <div class="contact-info">
