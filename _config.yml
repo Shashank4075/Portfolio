@@ -1,5 +1,7 @@
-title: Shashank Shekhar
-#logo: /assets/img/headshot_circle.png
-#description: text below image
-#show_downloads: true
-theme: jekyll-theme-minimal
+title: "Shashank Shekhar Portfolio"
+description: "Portfolio showcasing the projects and skills of Shashank Shekhar."
+theme: jekyll-theme-cayman
+baseurl: "/"
+url: "https://Shashank4075.github.io"
+markdown: kramdown
+
