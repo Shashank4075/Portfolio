@@ -1,8 +1,8 @@
-// JavaScript for Individual Project Collapsibles
+// JavaScript for Collapsible Sections
 document.addEventListener("DOMContentLoaded", function() {
-    const projectCollapsibles = document.getElementsByClassName("project-collapsible");
+    const collapsibles = document.getElementsByClassName("collapsible");
     
-    Array.from(projectCollapsibles).forEach(button => {
+    Array.from(collapsibles).forEach(button => {
         button.addEventListener("click", function() {
             this.classList.toggle("active");
             const content = this.nextElementSibling;
