@@ -9,15 +9,16 @@
 
 
 ## Education
-### Katz School of Science & Health - Yeshiva University                         Jan 2024 - Expected May 2025 | New York, NY 
-Master of Science in Data Analytics & Visualization	                                                      Cumulative GPA: 3.5
+### Katz School of Science & Health - Yeshiva University                       | Jan 2024 - Expected May 2025 | New York, NY 
+Master of Science in Data Analytics & Visualization	                                                    | Cumulative GPA: 3.5
+
 Relevant Coursework: Machine Learning, Data Science, Structured Data Management, Computational Math’s & Statistics, Storytelling
-### Guru Nanak Institute of Technology                                                 May 2018 - May 2022 | Kolkata, INDIA	
-Bachelor of Technology in Computer Science Engineering	                                                             GPA: 3.6
+### Guru Nanak Institute of Technology                                              |  May 2018 - May 2022 | Kolkata, INDIA	
+Bachelor of Technology in Computer Science Engineering	                                                            |GPA: 3.6
 
 ## Work Experience
-### Harman Connected Services Pvt. Ltd.                                                                 Apr 2022 - Feb 2023	
-Associate Software Engineer                                                                                       Pune, India
+### Harman Connected Services Pvt. Ltd. |                                                               Apr 2022 - Feb 2023	
+Associate Software Engineer  |                                                                                    Pune, India
 - Engineered and customized product ImedOne’s features using C# and .NET, boosting client satisfaction by 10% through improved workflows.
 - Executed predictive analysis on 50,000 mental health records using Python and scikit-learn; SVM model achieved 91% precision.
 - Enhanced diagnostic accuracy for high-risk groups, cutting null error rate from 69.34% to 24%.
@@ -47,7 +48,7 @@ Associate Software Engineer                                                     
 - Delivered findings to show borough-specific crime hotspots and time-based patterns, enabling targeted decision-making and resource planning.
 
 ## Certification 
-### IIIT Bangalore                                                                     Apr 2023 - Dec 2023, Bangalore | INDIA
-Advance Certificate Programme in Data Science                                                                       GPA: 3.4                
+### IIIT Bangalore                                            |                        Apr 2023 - Dec 2023, Bangalore | INDIA
+Advance Certificate Programme in Data Science                                                                    |  GPA: 3.4                
 
 
