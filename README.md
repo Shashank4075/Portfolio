@@ -52,6 +52,6 @@ Associate Software Engineer  |                                                  
 ## Certification 
 ### IIIT Bangalore                                            |                        Apr 2023 - Dec 2023 | Bangalore,INDIA
 Advance Certificate Programme in Data Science                                                                    |  GPA: 3.4                
-[IIIT Certificate ](./Shashank Shekhar- Certificate.pdf)
+[IIIT Certificate ](./IIITB-Certificate.pdf)
 
 
