@@ -9,11 +9,19 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #333;  /* Dark background for contrast */
-    color: #ffffff;
+    background-color: #333;
+    color: white;
     text-align: center;
     padding: 20px;
     margin-bottom: 10px;
+    position: relative;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 10px;
 }
 
 header h1 {
@@ -21,51 +29,44 @@ header h1 {
     font-size: 2.5em;
 }
 
-header p {
+header .role {
+    font-size: 1.2em;
     margin: 5px 0;
+}
+
+.contact-info {
+    font-size: 1em;
+    margin-top: 10px;
 }
 
 /* Section Styles */
 section {
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
+    max-width: 800px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
-/* Technical Skills Section */
-#technical-skills {
-    background-color: #e3f2fd;  /* Light Blue */
-    color: #0d47a1;  /* Dark Blue Text */
-}
+/* Color Coding for Each Section */
+#technical-skills { background-color: #e3f2fd; color: #0d47a1; }
+#experience { background-color: #e8f5e9; color: #2e7d32; }
+#projects { background-color: #fff8e1; color: #f9a825; }
+#education { background-color: #f3e5f5; color: #6a1b9a; }
+#certifications { background-color: #ffebee; color: #b71c1c; }
 
-/* Experience Section */
-#experience {
-    background-color: #e8f5e9;  /* Light Green */
-    color: #2e7d32;  /* Dark Green Text */
-}
-
-/* Projects Section */
-#projects {
-    background-color: #fff8e1;  /* Light Yellow */
-    color: #f9a825;  /* Dark Yellow/Amber Text */
-}
-
-/* Education Section */
-#education {
-    background-color: #f3e5f5;  /* Light Purple */
-    color: #6a1b9a;  /* Dark Purple Text */
-}
-
-/* Certifications Section */
-#certifications {
-    background-color: #ffebee;  /* Light Red */
-    color: #b71c1c;  /* Dark Red Text */
+/* Section Images */
+.section-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
 
 /* Links */
 a {
-    color: #333;
+    color: #add8e6;
     text-decoration: none;
 }
 
@@ -90,5 +91,10 @@ footer {
 
     header h1 {
         font-size: 2em;
+    }
+
+    .profile-picture {
+        width: 100px;
+        height: 100px;
     }
 }
