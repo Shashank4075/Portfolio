@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shashank Shekhar's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -16,10 +16,17 @@
             <p><a href="https://www.linkedin.com/in/shashank-shekhar-37a90b209/" target="_blank">LinkedIn</a> | <a href="https://github.com/Shashank4075" target="_blank">GitHub</a></p>
         </div>
     </header>
-    <main>
-        <section id="technical-skills">
-            <h2>Technical Skills</h2>
-            <img src="assets/technical-skills-placeholder.jpg" alt="Technical Skills Image" class="section-image">
+    
+    <!-- Portfolio Summary Section -->
+    <section id="summary">
+        <h2>Portfolio Summary</h2>
+        <p>I am a dedicated Data Scientist and Machine Learning Engineer with a strong foundation in Python, SQL, and C#, and proficiency in machine learning, data analysis, and statistical modeling. My professional experience includes developing machine learning models with high precision for predictive analytics, designing scalable data storage solutions, and creating insightful visualizations. I excel at deriving actionable insights from complex datasets to support data-driven decision-making.</p>
+    </section>
+
+    <!-- Collapsible Technical Skills Section -->
+    <section id="technical-skills">
+        <button class="collapsible">Technical Skills</button>
+        <div class="content">
             <ul>
                 <li>Languages: Python, SQL, C#</li>
                 <li>Machine Learning: scikit-learn, TensorFlow, NLP</li>
@@ -27,35 +34,48 @@
                 <li>Visualization: Matplotlib, Seaborn, Tableau</li>
                 <li>Databases & Tools: MSSQL, PostgreSQL, Oracle, AWS</li>
             </ul>
-        </section>
+        </div>
+    </section>
 
-        <section id="experience">
-            <h2>Work Experience</h2>
-            <img src="assets/experience-placeholder.jpg" alt="Experience Image" class="section-image">
+    <!-- Collapsible Experience Section -->
+    <section id="experience">
+        <button class="collapsible">Work Experience</button>
+        <div class="content">
             <h3>Harman Connected Services Pvt. Ltd.</h3>
             <p><strong>Associate Software Engineer</strong> | April 2022 - February 2023</p>
             <p>Engineered features using C# and .NET, and achieved 91% precision with an SVM model.</p>
-        </section>
+        </div>
+    </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <img src="assets/projects-placeholder.jpg" alt="Projects Image" class="section-image">
-            <!-- Add project details here -->
-            <p>Each project should have a description, the tech stack used, and any available links.</p>
-        </section>
+    <!-- Collapsible Projects Section -->
+    <section id="projects">
+        <button class="collapsible">Projects</button>
+        <div class="content">
+            <h3>Disease Data Modeling and Warehousing Project</h3>
+            <p>Designed a scalable PostgreSQL data model with ETL pipelines and an AWS architecture comparison.</p>
+            <h3>Dropout Rate Prediction</h3>
+            <p>Implemented a Random Forest model with an 87% AUC on 73,000 records to uncover dropout trends.</p>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
 
-        <section id="education">
-            <h2>Education</h2>
-            <img src="assets/education-placeholder.jpg" alt="Education Image" class="section-image">
+    <!-- Collapsible Education Section -->
+    <section id="education">
+        <button class="collapsible">Education</button>
+        <div class="content">
             <p>Master of Science in Data Analytics & Visualization - Yeshiva University</p>
             <p>Bachelor of Technology in Computer Science Engineering - Guru Nanak Institute of Technology</p>
-        </section>
+        </div>
+    </section>
 
-        <section id="certifications">
-            <h2>Certifications</h2>
-            <img src="assets/certifications-placeholder.jpg" alt="Certifications Image" class="section-image">
+    <!-- Collapsible Certifications Section -->
+    <section id="certifications">
+        <button class="collapsible">Certifications</button>
+        <div class="content">
             <p>Data Science Certificate - IIIT Bangalore</p>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
