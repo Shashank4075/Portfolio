@@ -10,7 +10,7 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #007acc;
+    background-color: #000; /* Changed to black */
     color: white;
     border-radius: 8px;
 }
