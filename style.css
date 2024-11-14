@@ -4,7 +4,6 @@ body {
     background-color: #f0f2f5;
     color: #333;
     margin: 0;
-    padding: 0;
 }
 
 /* Header Styles */
@@ -13,8 +12,6 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
-    margin-bottom: 10px;
-    position: relative;
 }
 
 .profile-picture {
@@ -24,37 +21,34 @@ header {
     margin-top: 10px;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-header .role {
+/* Collapsible Section Button */
+.collapsible {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
     font-size: 1.2em;
-    margin: 5px 0;
-}
-
-.contact-info {
-    font-size: 1em;
+    transition: background-color 0.3s ease;
     margin-top: 10px;
-}
-
-/* Section Styles */
-section {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: relative;
 }
 
-/* Color Coding for Each Section */
-#technical-skills { background-color: #e3f2fd; color: #0d47a1; }
-#experience { background-color: #e8f5e9; color: #2e7d32; }
-#projects { background-color: #fff8e1; color: #f9a825; }
-#education { background-color: #f3e5f5; color: #6a1b9a; }
-#certifications { background-color: #ffebee; color: #b71c1c; }
+.collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    display: none; /* Hidden by default */
+    padding: 20px;
+    background-color: #f0f2f5;
+    border-left: 4px solid #333;
+    margin-top: 5px;
+    border-radius: 8px;
+}
 
 /* Section Images */
 .section-image {
@@ -64,7 +58,6 @@ section {
     margin-bottom: 15px;
 }
 
-/* Links */
 a {
     color: #add8e6;
     text-decoration: none;
@@ -72,29 +65,4 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-/* Footer Styles (if you want to add one) */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    body {
-        font-size: 16px;
-    }
-
-    header h1 {
-        font-size: 2em;
-    }
-
-    .profile-picture {
-        width: 100px;
-        height: 100px;
-    }
 }
