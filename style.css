@@ -1,68 +1,160 @@
-/* General Styles */
+/* General styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-    color: #333;
+    line-height: 1.6;
     margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
-/* Header Styles */
+/* Header section */
 header {
-    background-color: #333;
-    color: white;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
+    background-color: #007acc;
+    color: white;
+}
+
+header h1 {
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+header .role {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+header .contact-info {
+    font-size: 1.2rem;
+}
+
+header .contact-info a {
+    color: white;
+    text-decoration: underline;
 }
 
 .profile-picture {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    margin-top: 10px;
+    object-fit: cover;
+    margin-bottom: 20px;
 }
 
-/* Collapsible Section Button */
+/* Sections styling */
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#summary {
+    background-color: #f0f8ff;
+}
+
+#technical-skills {
+    background-color: #e6ffe6;
+}
+
+#experience {
+    background-color: #fff0f5;
+}
+
+#projects {
+    background-color: #ffffe0;
+}
+
+#education {
+    background-color: #e6f7ff;
+}
+
+#certifications {
+    background-color: #ffe6e6;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* List styles */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Collapsible button */
 .collapsible {
-    background-color: #333;
+    background-color: #007acc;
     color: white;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 15px;
     width: 100%;
     border: none;
-    text-align: left;
     outline: none;
-    font-size: 1.2em;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
     transition: background-color 0.3s ease;
     margin-top: 10px;
-    border-radius: 8px;
 }
 
 .collapsible:hover {
-    background-color: #555;
+    background-color: #005fa3;
 }
 
+.collapsible:after {
+    content: '+';
+    font-size: 1.2rem;
+    float: right;
+}
+
+.collapsible.active:after {
+    content: '-';
+}
+
+/* Content section for collapsible */
 .content {
-    display: none; /* Hidden by default */
+    display: none;
+    padding: 15px;
+    border: 1px solid #007acc;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.content ul {
+    padding-left: 40px;
+}
+
+.content a {
+    color: #007acc;
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
     padding: 20px;
-    background-color: #f0f2f5;
-    border-left: 4px solid #333;
-    margin-top: 5px;
-    border-radius: 8px;
+    background-color: #007acc;
+    color: white;
+    font-size: 0.9rem;
 }
 
-/* Section Images */
-.section-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-
-a {
-    color: #add8e6;
-    text-decoration: none;
-}
-
-a:hover {
+footer a {
+    color: white;
     text-decoration: underline;
 }
