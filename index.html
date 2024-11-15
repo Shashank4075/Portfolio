@@ -310,19 +310,23 @@
     </section>
 
     <script>
-        // Script for collapsible sections
-        const coll = document.getElementsByClassName("collapsible");
-        for (let i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                const content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                    content.style.display = "none";
-                } else {
-                    content.style.display = "block";
-                }
-            });
-        }
-    </script>
+    // Script for collapsible sections
+    const coll = document.getElementsByClassName("collapsible");
+    for (let i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            const content = this.nextElementSibling;
+            const section = this.parentElement;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+                section.style.backgroundColor = "#1c1c1c"; // Revert to original color
+            } else {
+                content.style.display = "block";
+                section.style.backgroundColor = "#FFFFFF"; // Set background to white
+                section.style.color = "#000000"; // Adjust text color for readability
+            }
+        });
+    }
+   </script>
 </body>
 </html>
