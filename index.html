@@ -401,14 +401,80 @@
     <!-- Collapsible Education Section -->
     <section id="education">
         <button class="collapsible">Education</button>
-        <div class="content">
-            <h3>Master of Science in Data Analytics & Visualization</h3>
-            <p>Katz School of Science & Health, Yeshiva University | New York, NY | Jan 2024 - Expected May 2025 | GPA: 3.5</p>
-            <p><strong>Relevant Coursework:</strong> Machine Learning, Data Science, Structured Data Management, Computational Math & Statistics, Storytelling</p>
-            <h3>Bachelor of Technology in Computer Science Engineering</h3>
-            <p>Guru Nanak Institute of Technology | Kolkata, INDIA | May 2018 - May 2022 | GPA: 3.6</p>
+        
+        <section class="education">
+        <div class="degree">
+            <h3 class="degree-title">Master of Science in Data Analytics & Visualization</h3>
+            <p class="institution">Katz School of Science & Health, Yeshiva University | <span class="location">New York, NY</span></p>
+            <p class="dates"><strong>Jan 2024 - Expected May 2025</strong> | GPA: <strong class="highlight">3.5</strong></p>
+            <p class="coursework"><strong>Relevant Coursework:</strong> Machine Learning, Data Science, Structured Data Management, Computational Math & Statistics, Storytelling</p>
+        </div>
+
+        <div class="degree">
+            <h3 class="degree-title">Bachelor of Technology in Computer Science Engineering</h3>
+            <p class="institution">Guru Nanak Institute of Technology | <span class="location">Kolkata, INDIA</span></p>
+            <p class="dates"><strong>May 2018 - May 2022</strong> | GPA: <strong class="highlight">3.6</strong></p>
         </div>
     </section>
+
+    <style>
+    .education {
+        font-family: 'Arial', sans-serif;
+        margin: 20px auto;
+        max-width: 800px;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .degree {
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #e0e0e0;
+    }
+
+    .degree:last-child {
+        border-bottom: none;
+    }
+
+    .degree-title {
+        font-size: 1.5rem;
+        color: #007BFF;
+        margin-bottom: 5px;
+    }
+
+    .institution {
+        font-size: 1rem;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+    .location {
+        color: #6c757d;
+    }
+
+    .dates {
+        font-size: 0.95rem;
+        color: #555;
+        margin-bottom: 10px;
+    }
+
+    .highlight {
+        color: #28a745;
+        font-weight: bold;
+    }
+
+    .coursework {
+        font-size: 1rem;
+        color: #555;
+    }
+
+    .coursework strong {
+        color: #007BFF;
+    }
+</style>
+        
 
     <!-- Collapsible Certifications Section -->
     <section id="certifications">
