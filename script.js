@@ -1,17 +1,17 @@
-// JavaScript for Collapsible Sections
-document.addEventListener("DOMContentLoaded", function() {
-    const collapsibles = document.getElementsByClassName("collapsible");
-    
-    Array.from(collapsibles).forEach(button => {
-        button.addEventListener("click", function() {
-            this.classList.toggle("active");
-            const content = this.nextElementSibling;
-            
-            if (content.style.display === "block") {
-                content.style.display = "none";
-            } else {
-                content.style.display = "block";
-            }
-        });
+// Script for collapsible sections with background color toggle
+const coll = document.getElementsByClassName("collapsible");
+for (let i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        const content = this.nextElementSibling;
+
+        // Toggle the display of the content
+        if (content.style.display === "block") {
+            content.style.display = "none";
+            content.classList.remove("active-content"); // Remove active background color when collapsed
+        } else {
+            content.style.display = "block";
+            content.classList.add("active-content"); // Add active background color when expanded
+        }
     });
-});
+}
